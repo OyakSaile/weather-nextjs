@@ -1,0 +1,10 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["simple-import-sort"],
+
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "simple-import-sort/imports": "error"
+  }
+}
